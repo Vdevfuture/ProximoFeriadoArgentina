@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+body {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  line-height: 1;
+  font-size: 24px; /* Aumento del tamaño de fuente */
+  height: 100vh;
+  text-transform: capitalize;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra vertical y horizontalmente */
+  margin: 0;
+}
+
+#root {
+  text-align: center;
+}
+
+.container,
+.loading {
+  display: inline-block;
+  font-weight: bold;
+  padding: 1rem;
+  background: #03a9f4;
+  border-radius: 16px;
+  border: 1px solid #ffffff4d;
+  backdrop-filter: blur(25px);
+  max-width: 400px;
+  width: 100%;
+  color: #fff;
+  transition: 0.3s;
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.container:hover {
+  transform: rotate(0);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2),
+    0 10px 10px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* Aumento del tamaño de fuente para diferentes secciones */
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+.quantity {
+  font-size: 1.6rem;
+  margin: 0 0 16px 0;
+}
+
+.reason {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+}
+
+.date {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.day {
+  font-size: 3rem;
+  margin: 16px 0;
+}
+
+.type {
+  font-size: 1.3rem;
+  margin-top: 8px;
+}
+
+.others {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.optional,
+.origin,
+.religion {
+  font-size: 1.2rem;
+}
